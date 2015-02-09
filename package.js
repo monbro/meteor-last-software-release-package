@@ -17,7 +17,9 @@ function configurePackage(api) {
       'blaze@2.0.0',
       'templating@1.0.5',
       'ui',
-      'meteor'
+      'meteor',
+      'session',
+      'meteorhacks:npm'
     ]
   );
 
@@ -38,5 +40,7 @@ Package.onTest(function(api) {
   configurePackage(api);
 
   api.use('tinytest');
+
+  // @todo
   // api.addFiles('tests/breadcrumb-tests.js');
 });
