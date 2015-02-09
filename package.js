@@ -1,6 +1,6 @@
 Package.describe({
   name: 'monbro:last-software-release-date',
-  summary: 'This package will provide a easy way to show the last deployment date.',
+  summary: 'This package will provide a easy way to show the last deployment date to meteor.js.',
   version: '1.0.0',
   git: 'https://github.com/monbro/meteor-last-software-release-package/'
 });
