@@ -1,7 +1,7 @@
 Package.describe({
   name: 'monbro:last-software-release-date',
   summary: 'This package will provide a easy way to show the last deployment date to meteor.js.',
-  version: '1.0.0',
+  version: '1.0.1',
   git: 'https://github.com/monbro/meteor-last-software-release-package/'
 });
 
@@ -19,11 +19,11 @@ function configurePackage(api) {
       'ui',
       'meteor',
       'session',
-      'meteorhacks:npm'
+      'meteorhacks:npm@1.2.2'
     ]
   );
 
-  api.use('copleykj:livestamp', 'client');
+  api.use('copleykj:livestamp@1.1.2', 'client');
 
   api.addFiles('lib/client.js','client');
   api.addFiles('lib/server.js','server');
